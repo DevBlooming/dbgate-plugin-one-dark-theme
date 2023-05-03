@@ -1,0 +1,41 @@
+{
+  "name": "dbgate-plugin-one-dark-theme",
+  "version": "1.0.0",
+  "description": "One Dark theme for dbgate. ![icon](https://github.com/DevBlooming/dbgate-plugin-one-dark-theme/blob/main/icon.png)",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config",
+    "plugin": "yarn build && yarn pack && dbgate-plugin dbgate-plugin-one-dark-theme",
+    "monitor": "nodemon --watch src --exec yarn plugin",
+    "plugout": "dbgate-plugout dbgate-plugin-one-dark-theme",
+    "prepublishOnly": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevBlooming/dbgate-plugin-one-dark-theme.git"
+  },
+  "keywords": [
+    "dbgate",
+    "dbgateplugin",
+    "dbgatetheme",
+    "theme",
+    "one-dark"
+  ],
+  "files": [
+    "dist",
+    "icon.png"
+  ],
+  "author": "DevBlooming",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevBlooming/dbgate-plugin-one-dark-theme/issues"
+  },
+  "homepage": "https://github.com/DevBlooming/dbgate-plugin-one-dark-theme#readme",
+  "dependencies": {
+    "dbgate-plugin-tools": "^1.0.8",
+    "dbgate-tools": "^5.2.5",
+    "nodemon": "^2.0.22",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2"
+  }
+}
