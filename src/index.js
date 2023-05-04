@@ -55,7 +55,7 @@ const theme = {
     --theme-bg-button-inv-3: #346aa0;
 
     --theme-icon-blue: #3c9ae8;
-    --theme-icon-green: #98c379;
+    --theme-icon-green: #98c379; /* Num color */
     --theme-icon-red: #e06c75;
     --theme-icon-gold: #e8b339;
     --theme-icon-yellow: #d19a66;
