@@ -41,7 +41,7 @@ const theme = {
     --theme-border: #383e4a;
 
     --theme-bg-hover: #313341;
-    --theme-bg-selected: #2c313a;
+    --theme-bg-selected: #28414f;
     --theme-bg-selected-point: #03376e; /* blue-5 */
 
     --theme-bg-statusbar-inv: #21252b;
