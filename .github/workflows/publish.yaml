@@ -16,6 +16,13 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build with Webpack
+        run: npx webpack
+        
           registry-url: https://registry.npmjs.org
       - name: 🚀 publish
         run: npm publish --access public
