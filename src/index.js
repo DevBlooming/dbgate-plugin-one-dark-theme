@@ -146,6 +146,15 @@ const theme = {
     color: var(  --theme-font-1);
   }
 
+  /* tool strip */
+  .toolstrip.svelte-v3v30v {
+    border-bottom: 1px solid var(--theme-border);
+  }
+
+  .value.svelte-7yy3rb {
+    color: var(  --theme-font-1);
+  }
+
    `,
 };
 
