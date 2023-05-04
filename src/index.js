@@ -4,12 +4,12 @@ const theme = {
   themeClassName: 'theme-dbgate-plugin-one-dark-theme',
   themeCss: `       
   .theme-dbgate-plugin-one-dark-theme {  
-    --theme-font-1: #abb2bf; /* cor principal das fontes*/
+    --theme-font-1: #abb2bf; /* core font*/
     --theme-font-2: #383942;
     --theme-font-3: #888888;
     --theme-font-4: #5a5a5a;
     --theme-font-hover: #8dcff8; /* blue-9 */
-    --theme-font-link: #65b7f3; /* blue-8 */
+    --theme-font-link: #61afef; /* blue-8 */
     --theme-font-alt: #98c379; /* green-9 */
 
     --theme-bg-0: #282c34;
@@ -19,16 +19,16 @@ const theme = {
     --theme-bg-4: #484954;
     --theme-bg-alt: #21252b;
 
-    --theme-bg-gold: #4c4c0c; /* gold-2 */
-    --theme-bg-orange: #7c6e14; /*orange-2 */
+    --theme-bg-gold: #7c6e14; /* gold-2 */
+    --theme-bg-orange: #d19a66; /*orange-2 */
     --theme-bg-green: #1d3712; /* green-2 */
     --theme-bg-volcano: #441d12; /* volcano-2 */
-    --theme-bg-red: #431418; /* red-2 */
+    --theme-bg-red: #f44747; /* red-2 */
     --theme-bg-blue: #15395b; /* blue-3 */
-    --theme-bg-magenta: #551c3b; /* magenta-3 */
+    --theme-bg-magenta: #c678dd; /* magenta-3 */
 
-    --theme-font-inv-1: #abb2bf;
-    --theme-font-inv-15: #abb2bf;
+    --theme-font-inv-1: #ffffff;
+    --theme-font-inv-15: #dedede;
     --theme-font-inv-2: #b3b3b3;
     --theme-font-inv-3: #808080;
     --theme-font-inv-4: #4d4d4d;
@@ -59,7 +59,7 @@ const theme = {
     --theme-icon-red: #e06c75;
     --theme-icon-gold: #e8b339;
     --theme-icon-yellow: #d19a66;
-    --theme-icon-magenta: #e0529c;
+    --theme-icon-magenta: #c678dd;
 
     --theme-icon-inv-green: #98c379;
     --theme-icon-inv-red: #e06c75;
@@ -122,7 +122,7 @@ const theme = {
   }
   .iconbar .mdi{    
      transition: all 300ms;
-    font-size: 1.6rem !important;
+    font-size: 1.7rem !important;
     color: var(--theme-font-1);
   }
 
