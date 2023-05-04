@@ -41,7 +41,7 @@ const theme = {
     --theme-border: #383e4a;
 
     --theme-bg-hover: #313341;
-    --theme-bg-selected: #6e7179; /* blue-3 */
+    --theme-bg-selected: #2c313a;
     --theme-bg-selected-point: #03376e; /* blue-5 */
 
     --theme-bg-statusbar-inv: #21252b;
@@ -123,7 +123,7 @@ const theme = {
   .iconbar .mdi{    
      transition: all 300ms;
     font-size: 1.6rem !important;
-    color: var(--theme-bg-selected);
+    color: var(--theme-font-1);
   }
 
   /*ace_editor*/
