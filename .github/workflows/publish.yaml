@@ -25,7 +25,7 @@ jobs:
       - name: Build with Webpack
         run: npm run build
 
-      - name: 🚀 publish
+      - name: 🚀 Publish to NPM
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
