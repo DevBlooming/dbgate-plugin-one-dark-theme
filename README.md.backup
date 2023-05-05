@@ -7,7 +7,7 @@
 </div>
 
 # dbgate-plugin-one-dark-theme
-One Dark theme for [DbGate](https://github.com/dbgate/dbgate/releases/).
+One Dark theme for dbgate.
 
 ![screenshot](https://raw.githubusercontent.com/DevBlooming/dbgate-plugin-one-dark-theme/main/screenshot.png)
 
@@ -15,3 +15,5 @@ One Dark theme for [DbGate](https://github.com/dbgate/dbgate/releases/).
 ```bash
 npm i dbgate-plugin-one-dark-theme
 ```
+
+**Download dbgate:** [click here to download](https://github.com/dbgate/dbgate/releases/)
