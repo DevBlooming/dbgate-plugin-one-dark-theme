@@ -15,8 +15,8 @@ const theme = {
     --theme-bg-0: #282c34;
     --theme-bg-1: #21252b;
     --theme-bg-2: #21252b;
-    --theme-bg-3: #313341;
-    --theme-bg-4: #484954;
+    --theme-bg-3: #373e47;
+    --theme-bg-4: #313341; 
     --theme-bg-alt: #21252b;
 
     --theme-bg-gold: #7c6e14; /* gold-2 */
@@ -38,7 +38,7 @@ const theme = {
     --theme-bg-inv-3: #21252b;
     --theme-bg-inv-4: #707070;
 
-    --theme-border: #383e4a;
+    --theme-border: #444c56; /* #383e4a */
 
     --theme-bg-hover: #313341;
     --theme-bg-selected: #28414f;
@@ -70,7 +70,7 @@ const theme = {
   --dim-left-panel-width: 300px;
   --dim-tabs-panel-height: 60px;
   --dim-tabs-height: 33px;
-  --dim-splitter-thickness: 3px;
+  --dim-splitter-thickness: 1px;
 
   --dim-visible-left-panel: 1; /* set from JS */
   --dim-content-left: calc(
@@ -138,6 +138,10 @@ const theme = {
     background: var(--theme-bg-0);
     border-right: 1px solid var(--theme-bg-1);
   }
+  .ace_gutter {
+    border-right: 1px solid var( --theme-bg-3);
+  }
+
   .horizontal-split-handle:hover,
   .vertical-split-handle:hover{
     background-color: var(--theme-bg-selected) !important;
@@ -146,15 +150,52 @@ const theme = {
     color: var(  --theme-font-1);
   }
 
-  /* tool strip */
-  .toolstrip.svelte-v3v30v {
-    border-bottom: 1px solid var(--theme-border);
+  .ace_content {
+    border-right: 1px solid var( --theme-bg-3)
+    border-left: 1px solid var( --theme-bg-3)
   }
 
+  .file-name.svelte-tea07f {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .db-name-inner.svelte-tea07f {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  /* tool strip */
+  .toolstrip.svelte-v3v30v {
+    background-color: var( --theme-bg-0);
+  }
+  
+
+  /* number inside table color */
   .value.svelte-7yy3rb {
     color: var(  --theme-font-1);
   }
 
+  /* action title */
+  div.svelte-45fuwy {
+    background-color: var( --theme-bg-3);
+    border: none;
+  }
+
+  div.svelte-45fuwy:hover  {
+    background-color: var( --theme-bg-3);
+  }
+
+  .tab-item.svelte-orhipv {
+    font-weight: bold;
+  }
+
+  .tab-item.selected.svelte-orhipv {
+    background-color: var( --theme-bg-3);
+    font-weight: bold;
+  }
+
+  
    `,
 };
 

@@ -2060,10 +2060,10 @@
   "resolved" "https://registry.npmjs.org/webpack-sources/-/webpack-sources-3.2.3.tgz"
   "version" "3.2.3"
 
-"webpack@^5.1.0", "webpack@^5.81.0", "webpack@5.x.x":
-  "integrity" "sha512-AAjaJ9S4hYCVODKLQTgG5p5e11hiMawBwV2v8MYLE0C/6UAGLuAF4n1qa9GOwdxnicaP+5k6M5HrLmD4+gIB8Q=="
-  "resolved" "https://registry.npmjs.org/webpack/-/webpack-5.81.0.tgz"
-  "version" "5.81.0"
+"webpack@^5.1.0", "webpack@^5.82.0", "webpack@5.x.x":
+  "integrity" "sha512-iGNA2fHhnDcV1bONdUu554eZx+XeldsaeQ8T67H6KKHl2nUSwX8Zm7cmzOA46ox/X1ARxf7Bjv8wQ/HsB5fxBg=="
+  "resolved" "https://registry.npmjs.org/webpack/-/webpack-5.82.0.tgz"
+  "version" "5.82.0"
   dependencies:
     "@types/eslint-scope" "^3.7.3"
     "@types/estree" "^1.0.0"
