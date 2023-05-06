@@ -8,7 +8,7 @@
 
 <div align="center">
 
-[![NPM version](https://img.shields.io/npm/v/dbgate-plugin-wg-theme-dark.svg)](https://www.npmjs.com/package/dbgate-plugin-one-dark-theme)
+[![NPM version](https://img.shields.io/npm/v/dbgate-plugin-one-dark-theme?style=for-the-badge)](https://www.npmjs.com/package/dbgate-plugin-one-dark-theme)
 
 </div>
 
