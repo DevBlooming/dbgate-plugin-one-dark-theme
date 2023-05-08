@@ -203,6 +203,9 @@ const theme = {
   .value.svelte-7yy3rb {
     color: var(--theme-icon-yellow);
   }
+  .null.svelte-7yy3rb {
+    color: var(--theme-font-link);
+  }
 
   .tab-item.svelte-orhipv {
     font-weight: bold;
