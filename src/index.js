@@ -192,6 +192,18 @@ const theme = {
     background-color: var( --theme-bg-3);
   }
 
+  /* Table */
+  td.svelte-1do4nz4 {
+    color: var(--theme-font-alt);
+  }
+  .table.svelte-abhawu {
+    font-weight: bold;
+    color: var(--theme-font-1);
+  }
+  .value.svelte-7yy3rb {
+    color: var(--theme-icon-yellow);
+  }
+
   .tab-item.svelte-orhipv {
     font-weight: bold;
   }
