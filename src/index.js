@@ -144,6 +144,9 @@ const theme = {
   .ace_gutter {
     border-right: 1px solid var( --theme-bg-0);
   }
+  .ace_gutter-cell {
+    color: var(--theme-font-1);
+}
   
   .horizontal-split-handle:hover,
   .vertical-split-handle:hover{
