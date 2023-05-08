@@ -129,4 +129,5 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-one-dark.json
+# Desktop
+.desktop
