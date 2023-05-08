@@ -131,17 +131,20 @@ const theme = {
     font-size: 14px;
   }
   .ace_editor{
-    font-family: "Fira code", 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+    font-family: 'JetBrainsMono NF SemiBold', 'Fira code', 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
     background-color: var(--theme-bg-0);
   }
+  .ace_content {
+    padding-left: 0;
+}
   .ace_gutter-layer{
     background: var(--theme-bg-0);
-    border-right: 1px solid var(--theme-bg-1);
+    border-right: 1px solid var(--theme-bg-0);
   }
   .ace_gutter {
-    border-right: 1px solid var( --theme-bg-3);
+    border-right: 1px solid var( --theme-bg-0);
   }
-
+  
   .horizontal-split-handle:hover,
   .vertical-split-handle:hover{
     background-color: var(--theme-bg-selected) !important;
