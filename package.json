@@ -1,6 +1,6 @@
 {
   "name": "dbgate-plugin-one-dark-theme",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "One Dark theme for dbgate. ![icon](https://raw.githubusercontent.com/DevBlooming/dbgate-plugin-one-dark-theme/main/icon.png)",
   "scripts": {
     "build": "webpack --config webpack.config",
