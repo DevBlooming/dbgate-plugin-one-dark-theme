@@ -146,7 +146,13 @@ const theme = {
   }
   .ace_gutter-cell {
     color: var(--theme-font-1);
-}
+  }
+  .ace_folding-enabled > .ace_gutter-cell {
+    padding-left: 30px;
+  }
+  .theme-type-dark .ace_gutter-cell.ace-gutter-sql-run {
+    padding-right: 13px;
+  }
   
   .horizontal-split-handle:hover,
   .vertical-split-handle:hover{
