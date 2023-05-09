@@ -161,34 +161,27 @@ const theme = {
     border-left: 1px solid var( --theme-bg-3)
   }
 
-  .file-name.svelte-tea07f {
+  .file-name.svelte-ks0vy {
     font-size: 12px;
     font-weight: bold;
   }
 
-  .db-name-inner.svelte-tea07f {
+  .db-name-inner.svelte-ks0vy {
     font-size: 12px;
     font-weight: bold;
   }
 
-  /* tool strip */
-  .toolstrip.svelte-v3v30v {
-    background-color: var( --theme-bg-0);
-  }
-  
-
-  /* number inside table color */
-  .value.svelte-7yy3rb {
+  .mdi-view-split-vertical::before, .mdi-plus-circle::before {
     color: var(  --theme-font-1);
   }
 
   /* action title */
-  div.svelte-45fuwy {
+  div.svelte-1msuoss {
     background-color: var( --theme-bg-3);
     border: none;
   }
 
-  div.svelte-45fuwy:hover  {
+  div.svelte-1msuoss:hover  {
     background-color: var( --theme-bg-3);
   }
 
@@ -200,6 +193,7 @@ const theme = {
     font-weight: bold;
     color: var(--theme-font-1);
   }
+  /* number inside table color */
   .value.svelte-7yy3rb {
     color: var(--theme-icon-yellow);
   }
@@ -214,6 +208,11 @@ const theme = {
   .tab-item.selected.svelte-orhipv {
     background-color: var( --theme-bg-3);
     font-weight: bold;
+  }
+
+  /* tool strip */
+  .toolstrip.svelte-8bgi65 {
+    background-color: var( --theme-bg-0);
   }
 
   
