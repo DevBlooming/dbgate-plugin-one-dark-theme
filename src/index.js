@@ -219,6 +219,7 @@ const theme = {
   /* tool strip */
   .toolstrip.svelte-8bgi65 {
     background-color: var( --theme-bg-0);
+    height: 35px;
   }
 
   
